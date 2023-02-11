@@ -1,0 +1,10 @@
+.scrollProgressBox {
+    position: fixed;
+    top: 2vw;
+    right: 2vw;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: #fff;
+    text-align: center;
+    min-width: 60px;
+    padding: 10px;
+}
