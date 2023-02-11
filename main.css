@@ -2,3 +2,18 @@
 body {
     font-family: 'Noto Serif Display', serif;
 }
+article {
+    margin: 2vw;
+    padding: 2vw;
+    color: #333;
+    font-size: 1.4em;
+    text-align: justify;
+}
+article:nth-child(even) {
+    background-color: #EEE;
+}
+article h1 {
+    color: #333;
+    border-bottom: 1px solid #555;
+    font-size: 2em;
+}
