@@ -6,9 +6,9 @@ An example of a website where scroll-progress.js is implemented to improve the u
 - ~~Main functionality of script without visual exposition~~
 - ~~Add scroll-progress element and styling it~~
 - ~~Add progress update function and display it on element~~
-- Describe project
-- Add animation animation
 - Review code
 - Create few demo variation
-- Point good and bad points of project
 - Review goals
+- Point good and bad points of project
+- Describe project (how to use)
+- Update readme.md file
