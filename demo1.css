@@ -1,0 +1,15 @@
+.scrollProgressBox {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.scrollProgressBar {
+    width: 0%;
+    transition: width 0.2s linear;
+    background-color: #000;
+    height: 30px;
+}
