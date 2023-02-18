@@ -1,0 +1,29 @@
+.scrollProgressBox {
+    text-align: center;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0; /* Will not center vertically and won't work in IE6/7. */
+    background-color: hwb(0 100% 0% / 0.5);
+    transition: opacity 0.2s linear;
+    overflow: hidden;
+}
+.scrollProgressValue {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 40vh;
+    line-height: 100vh;
+    z-index: 2;
+    color: rgba(0, 0, 0, 0.2);
+}
+.scrollProgressBar {
+    width: 0%;
+    background-color: hwb(0 93% 7% / 0.5);
+    height: 100%;
+    transition: width 0.2s linear;
+}
