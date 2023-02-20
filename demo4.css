@@ -22,10 +22,16 @@
     color: rgba(0, 0, 0, 0.2);
 }
 .scrollProgressBar {
-    width: 0%;
-    background-color: hwb(0 93% 7% / 0.5);
-    height: 100%;
-    transition: width 0.2s linear;
+    /* /* position: fixed; */
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    background-color: hsla(0, 0%, 0%, 0.1);
+    
+    transition: height 0.2s linear;
 }
 article:nth-child(even) {
     background-color: #eeeeee30;

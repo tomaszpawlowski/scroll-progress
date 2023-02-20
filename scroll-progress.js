@@ -13,5 +13,5 @@ function updateScroll(){
     
     var scrollProgressPercentage = (Math.round((currentScrollPosition / (entireDocumentHeight - webBrowserWindowHeight)) * 100) + "%");
     (scrollProgressText) ? scrollProgressText.textContent = scrollProgressPercentage : false;
-    (scrollProgressBar) ? scrollProgressBar.style.width = scrollProgressPercentage : false;
+    (scrollProgressBar.classList.contains('vertical')) ?  scrollProgressBar.style.height = scrollProgressPercentage : scrollProgressBar.style.width = scrollProgressPercentage;
 };
